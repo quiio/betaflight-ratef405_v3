@@ -2,6 +2,8 @@ name: Build RATEF405_v3
 
 on:
   workflow_dispatch:
+permissions:
+  contents: write
 
 env:
   REPO_URL: https://github.com/gwlim/betaflight.git
