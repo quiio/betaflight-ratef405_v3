@@ -6,7 +6,7 @@ permissions:
   contents: write
 
 env:
-  REPO_URL: https://github.com/gwlim/betaflight.git
+  REPO_URL: https://github.com/quiio/betaflight-ratef405_v3.git
   REPO_BRANCH: master
   BUILDROOT: ${{ github.workspace }}/betaflight
   TZ: UTC
